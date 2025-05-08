@@ -11,7 +11,7 @@ meme_dict = {
 
 word = input("Write a non understandable word (With Large Characters!): ")
 
-if word in meme_dict_keys():
+if word in meme_dict.keys():
    print(meme_dict[word])
 else:
-   print("Sorry, That word doesnt exist...")
+   print("Sorry, That word doesnt exist... But we are currently working on it!")
